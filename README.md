@@ -5,37 +5,11 @@
 
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF41&height=200&section=header&text=LRecodex&fontSize=70&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Software%20Engineer&descAlignY=55&descColor=39FF14)
-
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=root%40LRecodex%3A~%24+whoami;Full-Stack+Engineer+%7C+Cloud+%26+DevOps+Enthusiast;print(%22Building+things+that+ship.%22)" alt="Typing SVG" />
-</a>
+<img src="./assets/header.svg" alt="Header" width="100%"/>
 
 <img src="https://komarev.com/ghpvc/?username=LRecodex&color=00FF41&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/LRecodex?color=00FF41&label=FOLLOWERS&style=flat-square&logo=github&logoColor=00FF41" alt="Followers"/>
 
 </div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/terminal.gif" alt="About Me Terminal GIF" width="700"/>
-</div>
-
-<br>
-
-```bash
-┌──(LRecodex㉿github)-[~]
-└─$ cat about_me.json
-```
-```json
-{
-  "name": "LRecodex",
-  "role": "Full-Stack Software Engineer",
-  "location": "Malaysia",
-  "fun_fact": "I turn coffee into code and bugs into features."
-}
-```
 
 <br>
 
@@ -88,35 +62,11 @@
 
 <br>
 
-## `~/trophies --all`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=LRecodex&theme=matrix&no-frame=true&margin-w=8&row=1" alt="Trophies"/>
-
-</div>
-
-<br>
-
 ## `~/contribution_graph`
 
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=LRecodex&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=39FF14&area=true&area_color=00FF41&custom_title=Contribution%20Activity" />
-
-</div>
-
-<br>
-
-## `~/connect --socials`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter/X](https://img.shields.io/badge/-Twitter-000000?style=for-the-badge&logo=x&logoColor=FFFFFF)](https://twitter.com/YOUR_HANDLE)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00FF41)](https://your-portfolio-site.com)
-[![Email](https://img.shields.io/badge/-Email-000000?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:your.email@example.com)
-[![Discord](https://img.shields.io/badge/-Discord-000000?style=for-the-badge&logo=discord&logoColor=5865F2)](https://discord.com/users/YOUR_ID)
 
 </div>
 
