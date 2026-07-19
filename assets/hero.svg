@@ -1,0 +1,176 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.6" stop-color="#080d1c"/>
+      <stop offset="1" stop-color="#0a1226"/>
+    </linearGradient>
+    <linearGradient id="titleFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="0.55" stop-color="#9fdcff"/>
+      <stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#10233c" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="360" rx="12"/></clipPath>
+    <clipPath id="slice"><rect x="0" y="96" width="1000" height="16"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Consolas','Courier New',monospace; }
+    .title { font-size: 82px; font-weight: bold; letter-spacing: 8px; }
+    .line  { font-size: 15px; fill: #8aa3c2; }
+    .cmd   { fill: #00f0ff; }
+    .ok    { fill: #2bff88; font-weight: bold; }
+    .dim   { fill: #33465f; }
+    .chip  { font-size: 13px; fill: #8aa3c2; letter-spacing: 1px; }
+    .hex   { font-size: 10px; fill: #1d3350; }
+
+    .gA { animation: jitterA 4.3s infinite; }
+    .gB { animation: jitterB 3.7s infinite; }
+    .sliceG { animation: sliceFlash 5.1s infinite; }
+    @keyframes jitterA {
+      0%,88%,100% { transform: translate(0,0); }
+      89% { transform: translate(-4px,1px); }
+      91% { transform: translate(3px,-1px); }
+      93% { transform: translate(-1px,2px); }
+      95% { transform: translate(0,0); }
+    }
+    @keyframes jitterB {
+      0%,82%,100% { transform: translate(0,0); }
+      83% { transform: translate(4px,-1px); }
+      85% { transform: translate(-3px,1px); }
+      88% { transform: translate(1px,-2px); }
+      90% { transform: translate(0,0); }
+    }
+    @keyframes sliceFlash {
+      0%,73%,78%,100% { opacity: 0; transform: translate(0,0); }
+      74% { opacity: 1; transform: translate(10px,0); }
+      76% { opacity: 1; transform: translate(-8px,0); }
+    }
+
+    .l1 { animation: fadein .25s ease .5s both; }
+    .l2 { animation: fadein .25s ease 1.2s both; }
+    .l3 { animation: fadein .25s ease 1.9s both; }
+    .l4 { animation: fadein .25s ease 2.6s both; }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+    .cursor { animation: blink 1s steps(2,start) infinite 3s, fadein .1s ease 3s both; }
+    @keyframes blink { to { visibility: hidden; } }
+
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+    .flick { animation: flick 3.1s steps(1) infinite; }
+    .flick2 { animation: flick 2.3s steps(1) infinite .7s; }
+    @keyframes flick {
+      0%,100% { opacity: .55; } 12% { opacity: .1; } 24% { opacity: .7; }
+      36% { opacity: .2; } 58% { opacity: .8; } 80% { opacity: .3; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="360" fill="url(#bg)"/>
+
+    <g opacity="0.7">
+      <rect x="-40" y="-40" width="1080" height="440" fill="url(#grid)">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 40" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <ellipse cx="330" cy="150" rx="420" ry="200" fill="url(#glowC)"/>
+
+    <!-- rotating HUD rings -->
+    <g transform="translate(858 148)" filter="url(#glow)">
+      <circle r="76" stroke="#0f3a52" stroke-width="1.5" stroke-dasharray="6 10"/>
+      <circle r="76" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="40 438" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="56" stroke="#341a3f" stroke-width="1" stroke-dasharray="3 6"/>
+      <circle r="56" stroke="#ff2d95" stroke-width="1.5" stroke-dasharray="26 326" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="34" stroke="#12405c" stroke-width="1"/>
+      <circle r="4" fill="#00f0ff" class="pulse"/>
+      <text y="-88" text-anchor="middle" class="hex" fill="#2a4f74">SYS.CORE</text>
+    </g>
+
+    <!-- hex data columns -->
+    <g class="flick">
+      <text x="24" y="52" class="hex">0xF7A1</text>
+      <text x="24" y="66" class="hex">0x00C4</text>
+      <text x="24" y="80" class="hex">0xBEEF</text>
+      <text x="24" y="94" class="hex">0x1337</text>
+    </g>
+    <g class="flick2">
+      <text x="948" y="290" class="hex">0xCAFE</text>
+      <text x="948" y="304" class="hex">0xD00D</text>
+      <text x="948" y="318" class="hex">0xACE5</text>
+    </g>
+
+    <!-- glitch title -->
+    <g filter="url(#glow)">
+      <text x="66" y="126" class="title gA" fill="#ff2d95" opacity="0.8">LRECODEX</text>
+      <text x="70" y="122" class="title gB" fill="#00f0ff" opacity="0.8">LRECODEX</text>
+      <text x="68" y="124" class="title" fill="url(#titleFill)">LRECODEX</text>
+      <g clip-path="url(#slice)" class="sliceG">
+        <text x="68" y="124" class="title" fill="#ff2d95">LRECODEX</text>
+      </g>
+    </g>
+
+    <!-- boot log -->
+    <g class="l1">
+      <text x="68" y="176" class="line"><tspan class="cmd">LRX-BIOS v5.0</tspan> — initializing developer environment</text>
+    </g>
+    <g class="l2">
+      <text x="68" y="202" class="line"><tspan class="cmd">&gt;</tspan> memory check ................ 640K CREATIVITY <tspan class="ok">[ OK ]</tspan></text>
+    </g>
+    <g class="l3">
+      <text x="68" y="228" class="line"><tspan class="cmd">&gt;</tspan> mounting /dev/coffee ........ FUEL RESERVES <tspan class="ok">[ OK ]</tspan></text>
+    </g>
+    <g class="l4">
+      <text x="68" y="254" class="line"><tspan class="cmd">&gt;</tspan> boot target: <tspan fill="#eaf6ff">full-stack engineer // polyglot</tspan></text>
+    </g>
+    <rect x="68" y="266" width="10" height="16" fill="#00f0ff" class="cursor"/>
+
+    <!-- status bar -->
+    <line x1="24" y1="308" x2="976" y2="308" stroke="#122543" stroke-width="1"/>
+    <circle cx="34" cy="332" r="4" fill="#2bff88" class="pulse"/>
+    <text x="46" y="336" class="chip">SYSTEM ONLINE</text>
+    <text x="210" y="336" class="chip"><tspan class="dim">MODE:</tspan> FULL-STACK</text>
+    <text x="400" y="336" class="chip"><tspan class="dim">KERNEL:</tspan> JS · PY · JAVA · GO · C++</text>
+    <text x="976" y="336" class="chip" text-anchor="end"><tspan class="dim">UPTIME:</tspan> ∞</text>
+
+    <!-- scanline -->
+    <rect x="0" y="-40" width="1000" height="26" fill="url(#scan)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 440" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g stroke="#00f0ff" stroke-width="2" class="pulse">
+      <path d="M12 34 V12 H34"/>
+      <path d="M966 12 H988 V34"/>
+      <path d="M988 326 V348 H966"/>
+      <path d="M34 348 H12 V326"/>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="359" rx="12" stroke="#14263f"/>
+</svg>

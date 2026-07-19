@@ -1,0 +1,117 @@
+<svg width="1000" height="590" viewBox="0 0 1000 590" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#ff2d95"/>
+    </linearGradient>
+    <linearGradient id="panelbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060a15"/>
+      <stop offset="1" stop-color="#0a1124"/>
+    </linearGradient>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: 'Consolas','Courier New',monospace; }
+    .cmd  { font-size: 15px; fill: #c9dcf2; }
+    .kw   { fill: #00f0ff; }
+    .mods { font-size: 13px; fill: #6d87a8; }
+    .ok   { font-size: 14px; fill: #2bff88; font-weight: bold; }
+    .ttl  { font-size: 14px; fill: #8aa3c2; letter-spacing: 2px; }
+    .foot { font-size: 15px; fill: #2bff88; }
+
+    .ok1 { animation: pop .2s ease 1.30s both; }
+    .ok2 { animation: pop .2s ease 2.10s both; }
+    .ok3 { animation: pop .2s ease 2.90s both; }
+    .ok4 { animation: pop .2s ease 3.70s both; }
+    .ok5 { animation: pop .2s ease 4.50s both; }
+    .ok6 { animation: pop .2s ease 5.30s both; }
+    .fin { animation: pop .3s ease 5.7s both; }
+    @keyframes pop { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+
+    .cursor { animation: blink 1s steps(2,start) infinite 5.9s, pop .1s ease 5.9s both; }
+    @keyframes blink { to { visibility: hidden; } }
+
+    .led { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="999" height="589" rx="12" fill="url(#panelbg)" stroke="#14263f"/>
+  <rect x="0.5" y="0.5" width="999" height="46" rx="12" fill="#0a1224"/>
+  <rect x="0.5" y="34" width="999" height="13" fill="#0a1224"/>
+  <line x1="0.5" y1="47" x2="999.5" y2="47" stroke="#14263f"/>
+
+  <circle cx="28" cy="24" r="6" fill="#ff2d95"/>
+  <circle cx="50" cy="24" r="6" fill="#f7c948"/>
+  <circle cx="72" cy="24" r="6" fill="#00f0ff"/>
+  <text x="96" y="29" class="ttl">LRX MODULE LOADER — /boot/stack</text>
+  <text x="972" y="29" class="ttl" text-anchor="end">v5.0</text>
+
+  <!-- ROW 1 : LANGUAGES -->
+  <circle cx="44" cy="90" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="1.3s"/></circle>
+  <text x="60" y="95" class="cmd"><tspan class="kw">&gt; insmod</tspan> languages.ko</text>
+  <text x="940" y="95" text-anchor="end" class="ok ok1">[ OK ]</text>
+  <text x="78" y="117" class="mods">JavaScript · TypeScript · Python · Java · Go · C++</text>
+  <rect x="78" y="126" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="126" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="0.4s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <!-- ROW 2 : FRONTEND -->
+  <circle cx="44" cy="168" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="2.1s"/></circle>
+  <text x="60" y="173" class="cmd"><tspan class="kw">&gt; insmod</tspan> frontend.ko</text>
+  <text x="940" y="173" text-anchor="end" class="ok ok2">[ OK ]</text>
+  <text x="78" y="195" class="mods">React · Next.js · Vue · Tailwind CSS · HTML5 · CSS3</text>
+  <rect x="78" y="204" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="204" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="1.2s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <!-- ROW 3 : BACKEND -->
+  <circle cx="44" cy="246" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="2.9s"/></circle>
+  <text x="60" y="251" class="cmd"><tspan class="kw">&gt; insmod</tspan> backend.ko</text>
+  <text x="940" y="251" text-anchor="end" class="ok ok3">[ OK ]</text>
+  <text x="78" y="273" class="mods">Node.js · Express · Django · Spring · FastAPI · GraphQL</text>
+  <rect x="78" y="282" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="282" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="2.0s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <!-- ROW 4 : DATA -->
+  <circle cx="44" cy="324" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="3.7s"/></circle>
+  <text x="60" y="329" class="cmd"><tspan class="kw">&gt; insmod</tspan> databases.ko</text>
+  <text x="940" y="329" text-anchor="end" class="ok ok4">[ OK ]</text>
+  <text x="78" y="351" class="mods">PostgreSQL · MongoDB · MySQL · Redis · Firebase</text>
+  <rect x="78" y="360" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="360" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="2.8s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <!-- ROW 5 : DEVOPS -->
+  <circle cx="44" cy="402" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="4.5s"/></circle>
+  <text x="60" y="407" class="cmd"><tspan class="kw">&gt; insmod</tspan> devops_cloud.ko</text>
+  <text x="940" y="407" text-anchor="end" class="ok ok5">[ OK ]</text>
+  <text x="78" y="429" class="mods">Docker · Kubernetes · AWS · GCP · Azure · Nginx · GitHub Actions</text>
+  <rect x="78" y="438" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="438" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="3.6s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <!-- ROW 6 : TOOLS -->
+  <circle cx="44" cy="480" r="4" fill="#22384f"><set attributeName="fill" to="#2bff88" begin="5.3s"/></circle>
+  <text x="60" y="485" class="cmd"><tspan class="kw">&gt; insmod</tspan> toolchain.ko</text>
+  <text x="940" y="485" text-anchor="end" class="ok ok6">[ OK ]</text>
+  <text x="78" y="507" class="mods">Linux · Git · Postman · CI/CD Pipelines</text>
+  <rect x="78" y="516" width="862" height="6" rx="3" fill="#0d1a2e"/>
+  <rect x="78" y="516" height="6" rx="3" fill="url(#bar)" filter="url(#softglow)" width="0">
+    <animate attributeName="width" from="0" to="862" begin="4.4s" dur="0.85s" fill="freeze"/>
+  </rect>
+
+  <line x1="24" y1="540" x2="976" y2="540" stroke="#122543"/>
+  <circle cx="44" cy="562" r="4" fill="#2bff88" class="led"/>
+  <text x="60" y="567" class="foot fin">6/6 modules loaded — all systems operational</text>
+  <rect x="470" y="554" width="9" height="15" fill="#00f0ff" class="cursor"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="1000" height="50" viewBox="0 0 1000 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="dglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M0 25 H180 l8 -16 l10 28 l8 -12 H480 l8 -16 l10 28 l8 -12 H780 l8 -16 l10 28 l8 -12 H1000"
+        stroke="#14263f" stroke-width="1.5"/>
+  <path d="M0 25 H180 l8 -16 l10 28 l8 -12 H480 l8 -16 l10 28 l8 -12 H780 l8 -16 l10 28 l8 -12 H1000"
+        stroke="#00f0ff" stroke-width="2" stroke-linecap="round" filter="url(#dglow)"
+        stroke-dasharray="110 1500">
+    <animate attributeName="stroke-dashoffset" from="1610" to="0" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+</svg>
