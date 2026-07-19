@@ -1,3 +1,8 @@
+<!--
+    root@LRecodex:~$
+    Thanks for cd-ing into my profile. Feel free to fork any snippet you like from here.
+-->
+
 <div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF41&height=200&section=header&text=LRecodex&fontSize=70&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Software%20Engineer&descAlignY=55&descColor=39FF14)
@@ -6,7 +11,18 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=root%40LRecodex%3A~%24+whoami;Full-Stack+Engineer+%7C+Cloud+%26+DevOps+Enthusiast;print(%22Building+things+that+ship.%22)" alt="Typing SVG" />
 </a>
 
+<img src="https://komarev.com/ghpvc/?username=LRecodex&color=00FF41&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/LRecodex?color=00FF41&label=FOLLOWERS&style=flat-square&logo=github&logoColor=00FF41" alt="Followers"/>
+
 </div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/terminal.gif" alt="About Me Terminal GIF" width="700"/>
+</div>
+
+<br>
 
 ```bash
 ┌──(LRecodex㉿github)-[~]
@@ -31,17 +47,25 @@
 <br>
 <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,go&theme=dark" />
 
+<br><br>
+
 **Frontend**
 <br>
 <img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,html,css&theme=dark" />
+
+<br><br>
 
 **Backend**
 <br>
 <img src="https://skillicons.dev/icons?i=nodejs,express,django,spring,fastapi,graphql&theme=dark" />
 
+<br><br>
+
 **Databases**
 <br>
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,firebase&theme=dark" />
+
+<br><br>
 
 **Cloud, DevOps & Tools**
 <br>
@@ -55,7 +79,20 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LRecodex&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=39FF14&currStreakNum=39FF14&sideLabels=39FF14&dates=39FF14" />
+<img src="https://github-readme-stats.vercel.app/api?username=LRecodex&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=39FF14&text_color=39FF14&ring_color=00FF41" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LRecodex&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39FF14&langs_count=8" width="38%" alt="Top Languages"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LRecodex&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=39FF14&currStreakNum=39FF14&sideLabels=39FF14&dates=39FF14" width="90%" alt="Streak Stats"/>
+
+</div>
+
+<br>
+
+## `~/trophies --all`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=LRecodex&theme=matrix&no-frame=true&margin-w=8&row=1" alt="Trophies"/>
 
 </div>
 
@@ -85,12 +122,8 @@
 
 <br>
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=LRecodex&color=00FF41&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
-
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,100:000000&height=120&section=footer)
 
-</div>
+<!--
+    That's a wrap. Star the repo if this theme inspired yours!
+-->
