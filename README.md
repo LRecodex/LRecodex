@@ -41,16 +41,9 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=LRecodex&show_icons=true&hide_border=true&bg_color=060913&title_color=00F0FF&icon_color=FF2D95&text_color=9FB3C8&ring_color=00F0FF" alt="GitHub Stats" width="100%"/>
-</td>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LRecodex&layout=compact&hide_border=true&bg_color=060913&title_color=00F0FF&text_color=9FB3C8&langs_count=10" alt="Top Languages" width="100%"/>
-</td>
-</tr>
-</table>
+<img src="https://raw.githubusercontent.com/LRecodex/LRecodex/output/diagnostics.svg" alt="System diagnostics — stats and top languages" width="100%"/>
+
+<br><br>
 
 <img src="https://streak-stats.demolab.com/?user=LRecodex&hide_border=true&background=060913&ring=00F0FF&fire=FF2D95&currStreakLabel=00F0FF&sideNums=9FB3C8&currStreakNum=00F0FF&sideLabels=9FB3C8&dates=445D77" width="90%" alt="Streak Stats"/>
 
