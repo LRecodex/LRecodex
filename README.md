@@ -13,43 +13,19 @@
 
 <br>
 
-## `~/tech_stack`
-
 <div align="center">
-
-**Languages**
-<br>
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,go&theme=dark" />
-
-<br><br>
-
-**Frontend**
-<br>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,html,css&theme=dark" />
-
-<br><br>
-
-**Backend**
-<br>
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,spring,fastapi,graphql&theme=dark" />
-
-<br><br>
-
-**Databases**
-<br>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,firebase&theme=dark" />
-
-<br><br>
-
-**Cloud, DevOps & Tools**
-<br>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,githubactions,nginx,linux,git,postman&theme=dark" />
-
+  <img src="./assets/terminal.gif" alt="About Me Terminal GIF" width="700"/>
 </div>
 
 <br>
 
-## `~/stats --live`
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,go,react,nextjs,vue,tailwind,html,css,nodejs,express,django,spring,fastapi,graphql,mongodb,postgres,mysql,redis,firebase,docker,kubernetes,aws,gcp,azure,githubactions,nginx,linux,git,postman&theme=dark&perline=11" />
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -61,8 +37,6 @@
 </div>
 
 <br>
-
-## `~/contribution_graph`
 
 <div align="center">
 
