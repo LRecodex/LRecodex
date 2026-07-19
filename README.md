@@ -14,7 +14,7 @@
 <br>
 
 <div align="center">
-  <img src="./assets/terminal.gif" alt="About Me Terminal GIF" width="700"/>
+  <img src="./assets/terminal.gif" alt="About Me Terminal GIF" width="90%"/>
 </div>
 
 <br>
@@ -29,9 +29,6 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=LRecodex&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=39FF14&text_color=39FF14&ring_color=00FF41" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LRecodex&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39FF14&langs_count=8" width="38%" alt="Top Languages"/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LRecodex&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=39FF14&currStreakNum=39FF14&sideLabels=39FF14&dates=39FF14" width="90%" alt="Streak Stats"/>
 
 </div>
@@ -40,7 +37,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LRecodex&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=39FF14&area=true&area_color=00FF41&custom_title=Contribution%20Activity" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LRecodex&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=39FF14&area=true&area_color=00FF41&custom_title=Contribution%20Activity" width="90%" alt="Contribution Activity"/>
 
 </div>
 
